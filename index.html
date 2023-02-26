@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="logic.js"></script>
+  </head>
+  <body>
+    <div style="text-align: center; margin-top: 32px">
+      <div style="margin-bottom: 32px; font-size: 48px; font-weight: bold">
+        TIC TAC TOE!
+      </div>
+      <div>
+        <input
+          type="text"
+          onclick="onInputClick('input1-1')"
+          readonly
+          id="input1-1"
+        />
+        <input
+          type="text"
+          onclick="onInputClick('input1-2')"
+          readonly
+          id="input1-2"
+        />
+        <input
+          type="text"
+          onclick="onInputClick('input1-3')"
+          readonly
+          id="input1-3"
+        />
+      </div>
+
+      <div>
+        <input
+          type="text"
+          onclick="onInputClick('input2-1')"
+          readonly
+          id="input2-1"
+        />
+        <input
+          type="text"
+          onclick="onInputClick('input2-2')"
+          readonly
+          id="input2-2"
+        />
+        <input
+          type="text"
+          onclick="onInputClick('input2-3')"
+          readonly
+          id="input2-3"
+        />
+      </div>
+
+      <div>
+        <input
+          type="text"
+          onclick="onInputClick('input3-1')"
+          readonly
+          id="input3-1"
+        />
+        <input
+          type="text"
+          onclick="onInputClick('input3-2')"
+          readonly
+          id="input3-2"
+        />
+        <input
+          type="text"
+          onclick="onInputClick('input3-3')"
+          readonly
+          id="input3-3"
+        />
+      </div>
+      <div style="margin-top: 16px; font-size: 24px" id="result"></div>
+      <button
+        id="restartButton"
+        class="hide"
+        type="button"
+        onclick="restart()"
+        style="margin-top: 16px"
+      >
+        Restart
+      </button>
+    </div>
+  </body>
+</html>
